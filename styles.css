@@ -143,11 +143,12 @@ section { padding: 8rem 4rem; }
 .mat-modal-box { 
   transform: translateY(24px); 
   transition: transform 0.35s ease; 
+  
 }
 .mat-modal.open .mat-modal-box { 
   transform: translateY(0); }
   
-.mat-modal-box { background: var(--dark); max-width: 800px; width: 100%; display: grid; grid-template-columns: 1fr 1fr; position: relative; border: 1px solid rgba(122,82,48,0.3); box-shadow: 0 24px 60px rgba(42,31,20,0.3); }
+.mat-modal-box { background: var(--dark); max-width: 800px; width: 100%; display: grid; grid-template-columns: 1fr 1fr; position: relative; border: 1px solid rgba(122,82,48,0.55); box-shadow: 0 24px 60px rgba(0,0,0,0.45); overflow: hidden; }
 .mat-modal-close { position: absolute; top: 1rem; right: 1rem; background: none; border: none; font-size: 1.1rem; cursor: pointer; color: var(--text-muted); z-index: 1; transition: color 0.2s; line-height: 1; padding: 0.3rem; }
 .mat-modal-close:hover { color: var(--dark-text); }
 .mat-modal-img-wrap { aspect-ratio: 1/1; overflow: hidden; background: var(--dark-4); min-height: 300px; }
